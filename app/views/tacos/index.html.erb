@@ -1,0 +1,22 @@
+<h1>Tacos</h1>
+<p> Let's eat tacos </p>
+
+<p> In the template </p>
+
+<% tacos = ["Carnitas", "Steak", "Veggie",""] %>
+
+<p>There are <%= tacos.count %> tacos</p>
+
+<!-- <ul> -->
+<!-- <li>Carnitas</li> -->
+<!-- <li>Steak</li> -->
+<!-- <li>Veggie</li> -->
+<!-- </ul>> -->
+
+<!-- <ul><li><%=tacos[0]%></li></ul> -->
+
+<ul>
+<% for taco in tacos %>
+  <li><%= taco %></li> 
+  <% end %>
+</ul>
