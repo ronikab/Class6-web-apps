@@ -4,5 +4,8 @@ resources "tacos"
 
 resources "dice"
 
+resources "companies"
+
+resources "contacts"
 end
 
